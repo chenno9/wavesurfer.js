@@ -975,8 +975,8 @@ var WebAudio = function (_util$Observer) {
          */
 
     }, {
-        key: 'load',
-        value: function load(buffer) {
+        key: 'myload',
+        value: function myload(buffer) {
             this.startPosition = 0;
             this.lastPlay = this.ac.currentTime;
             this.buffer = buffer;
@@ -2486,7 +2486,7 @@ var WaveSurfer = function (_util$Observer) {
     }, {
         key: 'loadDecodedBuffer',
         value: function loadDecodedBuffer(buffer) {
-            this.backend.load(buffer);
+            this.backend.myload(buffer);
             this.drawBuffer();
             this.fireEvent('ready');
             this.isReady = true;

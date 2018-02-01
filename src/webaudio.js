@@ -509,7 +509,7 @@ export default class WebAudio extends util.Observer {
      *
      * @param {Object} buffer
      */
-    load(buffer) {
+    myload(buffer) {
         this.startPosition = 0;
         this.lastPlay = this.ac.currentTime;
         this.buffer = buffer;

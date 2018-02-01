@@ -1107,7 +1107,7 @@ export default class WaveSurfer extends util.Observer {
      * @emits WaveSurfer#ready
      */
     loadDecodedBuffer(buffer) {
-        this.backend.load(buffer);
+        this.backend.myload(buffer);
         this.drawBuffer();
         this.fireEvent('ready');
         this.isReady = true;
