@@ -2,7 +2,7 @@
   "name": "wavesurfer.js",
   "version": "2.0.3",
   "description": "Interactive navigable audio visualization using Web Audio and Canvas",
-  "main": "dist/wavesurfer.min.js",
+  "main": "dist/wavesurfer.js",
   "directories": {
     "example": "example"
   },
@@ -54,10 +54,6 @@
     "esdoc-ecmascript-proposal-plugin": "^1.0.0",
     "esdoc-integrate-test-plugin": "^1.0.0",
     "esdoc-standard-plugin": "^1.0.0",
-    "eslint": "^4.15.0",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-loader": "^1.9.0",
-    "eslint-plugin-prettier": "^2.4.0",
     "htmlhint": "^0.9.13",
     "in-publish": "^2.0.0",
     "jasmine-core": "^2.8.0",
@@ -78,10 +74,6 @@
   "homepage": "https://github.com/katspaugh/wavesurfer.js",
   "pre-commit": "lint-and-format-staged",
   "lint-staged": {
-    "*.js": [
-      "prettier",
-      "eslint"
-    ],
     "*.html": [
       "htmlhint"
     ]

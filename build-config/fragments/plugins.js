@@ -32,9 +32,10 @@ module.exports = {
         'regions',
         'spectrogram',
         'cursor',
-        'microphone',
+        // 'microphone',
         'mediasession',
-        'elan'
+        'elan',
+        'editor'
     ]),
     output: {
         path: path.resolve(__dirname, '../', '../', 'dist', 'plugin'),
